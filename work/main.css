@@ -1,0 +1,219 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('fonts/MyriadPro-Regular/MyriadPro-Regular.woff2') format('woff2'),
+        url('fonts/MyriadPro-Regular/MyriadPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html, body{
+    height: 100%;
+}
+.main-gradient {
+    min-height: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+
+    /* https://cssgradient.io/ */
+    background: rgb(22,150,169);
+    background: -moz-linear-gradient(180deg, rgba(22,150,169,1) 0%, rgba(245,251,251,1) 90%);
+    background: -webkit-linear-gradient(180deg, rgba(22,150,169,1) 0%, rgba(245,251,251,1) 90%);
+    background: linear-gradient(180deg, rgba(22,150,169,1) 0%, rgba(245,251,251,1) 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1696a9",endColorstr="#f5fbfb",GradientType=1);
+}
+.sol-bg {
+    background: url('images/sol-white-bg.png') no-repeat;
+    background-position: top right;
+}
+.plus-button {
+    width: 35px;
+    height: 35px;
+}
+#col-dprev-img .plus-button {
+    position: relative;
+    top: 72px;
+    right: -288px;
+}
+#text-dprev-tripla-acao img {
+    width: 70%;
+}
+#text-triplo-beneficio img {
+    width: 65%;
+}
+#text-fonte-vitamina img {
+    width: 65%;
+}
+#text-acao-anti-oxidante img {
+    width: 65%;
+}
+#text-auxilia-funcionamento img {
+    width: 80%;
+}
+#btn-mini-bula {
+    width: 22%;
+}
+#modal-col-dprev-img .modal-body,
+#modal-btn-mini-bula .modal-body{
+    padding: 0;
+}
+#modal-btn-mini-bula .modal-dialog .modal-content .modal-body {
+    background: url('images/bg-modal-btn-mini-bula.gif');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+#modal-btn-mini-bula {
+    font-family: 'Myriad Pro';
+    font-weight: normal;
+    font-style: normal;
+    color: #11165b;
+}
+#modal-btn-mini-bula .modal-text {
+    font-size: 0.8em;
+}
+#modal-btn-mini-bula #modal-text-dprev-tripla-acao {
+    margin-bottom: 12vh;
+}
+#modal-btn-mini-bula #modal-text-dprev-tripla-acao img {
+    width: 45%;
+}
+#modal-btn-mini-bula #footer-modal-btn-mini-bula {
+    margin-top: 12vh;
+}
+#modal-btn-mini-bula #footer-modal-btn-mini-bula small {
+    font-size: 0.6em;
+    line-height: normal;
+}
+#modal-btn-mini-bula #footer-modal-btn-mini-bula #col-sac {
+    text-align: left;
+}
+#modal-btn-mini-bula #footer-modal-btn-mini-bula #col-myralis {
+    text-align: right;
+}
+#modal-btn-mini-bula #footer-modal-btn-mini-bula #footer-sac-gif {
+    width: 70%;
+}
+#modal-btn-mini-bula #footer-modal-btn-mini-bula #footer-myralis-gif {
+    width: 40%;
+}
+#modal-btn-mini-bula .modal-footer {
+    background-color: #c4e4e8;
+}
+
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    #col-dprev-img .plus-button {
+        top: 64px;
+        right: -240px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    #col-dprev-img .plus-button {
+        width: 28px;
+        height: 28px;
+        top: 50px !important;
+        right: -175px !important;
+    }
+    #text-dprev-tripla-acao img {
+        width: 90%;
+    }
+    #text-triplo-beneficio img {
+        width: 85%;
+    }
+    #text-fonte-vitamina img {
+        width: 85%;
+    }
+    #text-acao-anti-oxidante img {
+        width: 85%;
+    }
+    #text-auxilia-funcionamento img {
+        width: 100%;
+    }
+    #btn-mini-bula {
+        width: 35%;
+    }
+    #modal-btn-mini-bula #footer-modal-btn-mini-bula #footer-sac-gif {
+        width: 100%;
+    }
+    #modal-btn-mini-bula #footer-modal-btn-mini-bula #footer-myralis-gif {
+        width: 60%;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .sol-bg {
+        background-size: 80%;
+    }
+    #img-dprev-tripla-acao {
+        max-height: 60vh;
+    }
+    #col-dprev-img .plus-button {
+        width: 22px !important;
+        height: 22px !important;
+        top: 50px !important;
+        right: -300px !important;
+    }
+    #text-container {
+        text-align: center;
+        padding-top: 3vh;
+    }
+    #text-dprev-tripla-acao img {
+        width: 50%;
+    }
+    #text-triplo-beneficio img {
+        width: 45%;
+    }
+    #text-fonte-vitamina img {
+        width: 45%;
+    }
+    #text-acao-anti-oxidante img {
+        width: 45%;
+    }
+    #text-auxilia-funcionamento img {
+        width: 60%;
+    }
+    #btn-mini-bula {
+        width: 22%;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    #modal-btn-mini-bula #footer-modal-btn-mini-bula #col-sac,
+    #modal-btn-mini-bula #footer-modal-btn-mini-bula #col-myralis {
+        text-align: center;
+    }
+    #modal-btn-mini-bula #footer-modal-btn-mini-bula #footer-sac-gif {
+        width: 100%;
+    }
+    #modal-btn-mini-bula #footer-modal-btn-mini-bula #footer-myralis-gif {
+        width: 100%;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #col-dprev-img .plus-button {
+        width: 22px !important;
+        height: 22px !important;
+        top: 7vh !important;
+        right: -56vw !important;
+    }
+    .modal-dialog {
+        max-width: 650px !important;
+    }
+}
+@media only screen and (max-width: 575.98px) {
+    #col-dprev-img .plus-button {
+        right: -59vw !important;
+    }
+}
