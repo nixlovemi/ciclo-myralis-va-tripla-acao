@@ -1,3 +1,4 @@
+/* ------------------------- MAIN -------------------------- */
 @font-face {
     font-family: 'Myriad Pro';
     src: url('fonts/MyriadPro-Regular/MyriadPro-Regular.woff2') format('woff2'),
@@ -6,7 +7,6 @@
     font-style: normal;
     font-display: swap;
 }
-
 html, body{
     height: 100%;
 }
@@ -34,6 +34,9 @@ html, body{
     width: 35px;
     height: 35px;
 }
+/* --------------------------------------------------------- */
+
+/* ------------------------- MAIN IMAGES -------------------------- */
 #col-dprev-img .plus-button {
     position: relative;
     top: 72px;
@@ -57,6 +60,9 @@ html, body{
 #btn-mini-bula {
     width: 22%;
 }
+/* ---------------------------------------------------------------- */
+
+/* ------------------------- MODALS -------------------------- */
 #modal-col-dprev-img .modal-body,
 #modal-btn-mini-bula .modal-body{
     padding: 0;
@@ -87,9 +93,8 @@ html, body{
 #modal-btn-mini-bula #footer-modal-btn-mini-bula {
     margin-top: 12vh;
 }
-#modal-btn-mini-bula #footer-modal-btn-mini-bula small {
+#modal-btn-mini-bula #footer-modal-btn-mini-bula .small {
     font-size: 0.6em;
-    line-height: normal;
 }
 #modal-btn-mini-bula #footer-modal-btn-mini-bula #col-sac {
     text-align: left;
@@ -106,8 +111,9 @@ html, body{
 #modal-btn-mini-bula .modal-footer {
     background-color: #c4e4e8;
 }
+/* ----------------------------------------------------------- */
 
-
+/* ------------------------- MEDIA QUERIES -------------------------- */
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
     #col-dprev-img .plus-button {
@@ -146,7 +152,13 @@ html, body{
         width: 100%;
     }
     #modal-btn-mini-bula #footer-modal-btn-mini-bula #footer-myralis-gif {
+        width: 70%;
+    }
+    #modal-btn-mini-bula #modal-text-dprev-tripla-acao img {
         width: 60%;
+    }
+    #modal-btn-mini-bula .modal-footer {
+        background-color: rgb(253, 253, 253);
     }
 }
 
@@ -193,10 +205,10 @@ html, body{
         text-align: center;
     }
     #modal-btn-mini-bula #footer-modal-btn-mini-bula #footer-sac-gif {
-        width: 100%;
+        width: 88%;
     }
     #modal-btn-mini-bula #footer-modal-btn-mini-bula #footer-myralis-gif {
-        width: 100%;
+        width: 70%;
     }
 }
 
@@ -214,6 +226,7 @@ html, body{
 }
 @media only screen and (max-width: 575.98px) {
     #col-dprev-img .plus-button {
-        right: -59vw !important;
+        right: -55vw !important;
     }
 }
+/* ------------------------------------------------------------------ */
