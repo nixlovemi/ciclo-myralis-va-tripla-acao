@@ -1,8 +1,8 @@
 /* ------------------------- MAIN -------------------------- */
 @font-face {
     font-family: 'Myriad Pro';
-    src: url('fonts/MyriadPro-Regular/MyriadPro-Regular.woff2') format('woff2'),
-        url('fonts/MyriadPro-Regular/MyriadPro-Regular.woff') format('woff');
+    src: url('../fonts/MyriadPro-Regular/MyriadPro-Regular.woff2') format('woff2'),
+        url('../fonts/MyriadPro-Regular/MyriadPro-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -68,7 +68,7 @@ html, body{
     padding: 0;
 }
 #modal-btn-mini-bula .modal-dialog .modal-content .modal-body {
-    background: url('images/bg-modal-btn-mini-bula.gif');
+    background: url('../img/bg-modal-btn-mini-bula.gif');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
