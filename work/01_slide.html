@@ -1,52 +1,15 @@
-<!doctype html>
-<html lang="pt-br">
+<!DOCTYPE html>
+<html>
     <head>
         <title>VA Tripla Ação</title>
-
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <style></style>
     </head>
-    <body class="main-gradient">
-        <div class="h-100 sol-bg">
-            <div class="container h-100">
-                <div class="row h-100 justify-content-center align-items-center">
-                    <div id="text-container" class="col-md-5 offset-md-1">
-                        <div id="text-dprev-tripla-acao" class="d-block w-100 mb-4">
-                            <img class="img-fluid" src="img/text-dprev-tripla-acao.png" />
-                        </div>
-                        <div id="text-triplo-beneficio" class="d-block w-100 mb-4">
-                            <img class="img-fluid" src="img/text-triplo-beneficio.png" />
-                        </div>
-                        <div id="text-fonte-vitamina" class="d-block w-100 mb-4">
-                            <img class="img-fluid" src="img/text-fonte-vitamina.png" />
-                        </div>
-                        <div id="text-acao-anti-oxidante" class="d-block w-100 mb-4">
-                            <img class="img-fluid" src="img/text-acao-anti-oxidante.png" />
-                        </div>
-                        <div id="text-auxilia-funcionamento" class="d-block w-100 mb-4">
-                            <img class="img-fluid" src="img/text-auxilia-funcionamento.png" />
-                        </div>
-                        <div id="btn-mini-bula" class="d-block">
-                            <a href="javascript:;" data-toggle="modal" data-target="#modal-btn-mini-bula">
-                                <img class="img-fluid" src="img/button-mini-bula.png" />
-                            </a>
-                        </div>
-                    </div>
-                    <div id="col-dprev-img" class="col-md-5 text-center">
-                        <div class="plus-button">
-                            <a href="javascript:;" data-toggle="modal" data-target="#modal-col-dprev-img">
-                                <img class="img-fluid" src="img/plus-button.png" />
-                            </a>
-                        </div>
-                        <img id="img-dprev-tripla-acao" class="img-fluid" alt="DPREV Tripla Ação" src="img/dprev-tripla-acao-496-600.png" />
-                    </div>
-                </div>
-            </div>
+    <body>
+        <div id="main" style="background-image: url(img/va_tripla_01-min.png)">
+            <div id="button-1" data-toggle="modal" data-target="#modal-col-dprev-img"></div>
+            <div id="button-2" data-toggle="modal" data-target="#modal-btn-mini-bula"></div>
         </div>
 
         <!-- Modal col-dprev-img -->
@@ -54,7 +17,7 @@
             <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-body">
-                        <img class="img-fluid" src="img/modal-col-dprev-img.jpg" />
+                        <img class="img-fluid" src="img/va_tripla_02-min.png" />
                     </div>
 
                     <div class="modal-footer">
@@ -65,32 +28,11 @@
         </div>
 
         <!-- Modal btn-mini-bula -->
-        <div id="modal-btn-mini-bula" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+        <div id="modal-btn-mini-bula" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-body">
-                        <div id="modal-text-dprev-tripla-acao" class="d-block w-100 mt-4 text-center">
-                            <img class="img-fluid" src="img/text-dprev-tripla-acao.png" />
-                        </div>
-
-                        <div class="ml-1 ml-md-5 mr-1 mr-md-5 mb-3">
-                            <p class="d-block w-100 text-justify modal-text">Dprev Tripla Ação (Suplemento alimentar em comprimidos revestidos) • Recomendação de uso (Adultos): Ingerir 1 comprimido ao dia. NÃO CONTÉM GLÚTEN. ESTE PRODUTO NÃO É UM MEDICAMENTO. NÃO EXCEDER A RECOMENDAÇÃO DIÁRIA DE CONSUMO INDICADA NA EMBALAGEM. MANTENHA FORA DO ALCANCE DE CRIANÇAS.</p>
-                            <p class="d-block w-100 text-justify modal-text">Referências: 1. folheto do produto e 2. PMB dez/22</p>
-
-                            <div id="footer-modal-btn-mini-bula" class="row">
-                                <div id="col-sac" class="col-4">
-                                    <img id="footer-sac-gif" class="img-fluid" src="img/footer-sac.gif" />
-                                </div>
-                                <div class="col-4 text-center">
-                                    <p class="small">
-                                        Material destinado à classe médica - Abril 2023
-                                    </p>
-                                </div>
-                                <div id="col-myralis" class="col-4">
-                                    <img id="footer-myralis-gif" class="img-fluid" src="img/footer-myralis.gif" />
-                                </div>
-                            </div>
-                        </div>
+                        <img class="img-fluid" src="img/va_tripla_03.gif" />
                     </div>
 
                     <div class="modal-footer">
@@ -100,11 +42,8 @@
             </div>
         </div>
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="js/jquery.js"></script>
-        <script src="js/popper.js"></script>
-        <script src="js/bootstrap.js"></script>
-        <script src="js/script.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
     </body>
 </html>
